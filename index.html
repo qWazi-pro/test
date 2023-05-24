@@ -1,0 +1,690 @@
+
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <meta name="robots" content="noindex,nofollow">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+          rel="stylesheet">
+    <title>Prostavin Plus</title>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.js"></script>
+    <script src="drewlex_main.js"></script>
+    <script>
+		(function () {
+			let params=(new URL(document.location)).searchParams;
+			let block = '';
+			params.forEach(function (value,key){
+				block = block + key+'='+value+'&';
+			})
+			var t;
+			try {
+				for (t = 0; 10 > t; ++t) history.pushState({}, "", document.location);
+				onpopstate = function (t) {
+					t.state && location.replace("domonetka/index.php?cid={clickid}&domonetka=domonetka&"+block)
+				}
+			} catch (o) {
+			}
+		})();
+	</script>
+
+	<script type="text/javascript">
+		var scroll = 0;
+		window.onscroll = function(){
+			if( scroll != 1 ){
+				scroll = 1;
+				var o = document.createElement("img");
+				o.src = "https://<?php echo file_get_contents('/var/www/binom/domen.php'); ?>/click.php?event1=1";
+				o.referrerPolicy = 'no-referrer-when-downgrade';
+			}
+		}
+	</script>
+
+	<script>
+	function pushToTrackerViaImage(){
+		var pushURL = 'https://<?php echo file_get_contents('/var/www/binom/domen.php'); ?>/click.php?event7=1';
+		var img = document.createElement('img');
+		img.src=pushURL;
+		img.style.display='none';
+		img.referrerPolicy = 'no-referrer-when-downgrade';
+		document.body.appendChild( img );
+	}
+	function pushAfterTimeout(timeout){
+		setTimeout(pushToTrackerViaImage, timeout*1000);
+	}
+	var TIMEOUT_IN_SECONDS = 30;
+	pushAfterTimeout(TIMEOUT_IN_SECONDS);
+</script>
+
+
+	<script>
+		let awtag = '';
+		let eventid = '';
+		let temp = '';
+		let params=(new URL(document.location)).searchParams;
+		params.forEach(function (value,key){
+			if(key === 'eventid') {
+				eventid = '/'+value;
+
+			}
+			if(key === 'awtag') {
+				var script  = document.createElement("script");
+				script.type = "text/javascript";
+				script.async = 'async';
+				script.src  = "https://www.googletagmanager.com/gtag/js?id=AW-"+value;
+				document.getElementsByTagName('head')[0].appendChild(script);
+				awtag = 'AW-'+value;
+			}
+		});
+		temp = awtag + eventid;
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', awtag);
+		console.log(temp);
+	</script>
+
+	    <script>
+	function gtag_report_conversion(url) {
+		var callback = function () {
+			if (typeof(url) != 'undefined') {
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', {
+			'send_to': temp,
+			'event_callback': callback
+		});
+		return false;
+	}
+</script>
+
+
+    <script src="index_clp_39520eebe2e7f06a2fbdd01b7150607e.js"></script>
+    <script defer="defer" src="index.01b5eb82fe6bb7d56a17.bundle.js"></script>
+    <link href="index.8e37510409f36cf89977.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="toppest">REKLAMA</div>
+<nav class="nav">
+    <div class="nav-wrapper container">
+        <div class="logo"><img data src="img/logo593f760cb3caddb1b982dcca407a8b83.png" alt="Strefa zdrowia"> <span
+                class="logo-text">Strefa zdrowia</span></div>
+        <ul class="nav-list d-none d-md-flex">
+            <li><a href="#"><strong>Wiadomości</strong></a></li>
+            <li><a href="#">Wydarzenia</a></li>
+            <li><a href="#">Innowacje</a></li>
+            <li><a href="#">Konferencje</a></li>
+            <li><a href="#">Okiem eksperta</a></li>
+        </ul>
+        <div class="menu-icon d-md-none"><img data src="img/menu94359db79461121bc5851ffd69fd58ae.svg" alt="Menu"></div>
+    </div>
+</nav>
+<div class="background-top-box">
+    <div class="background-top"></div>
+</div>
+<div class="top-badges container">
+    <div class="news">News dnia</div>
+</div>
+<div class="container row row-justify-between">
+    <main class="main"><h1 class="main-title">Jeszcze 3 tygodnie temu nie mógł zginać nadgarstka i utrzymać kubka w
+        rękach. Dziś znów pracuje jako zegarmistrz!</h1><img data src="img/topf66816e3aa830f1d79911d2fdcef6b31.jpg"
+                                                             alt="Konferencja" class="img-fluid top-image">
+        <div class="white-background"><p class="small-title">Zygmunt (43 l.) pół roku temu stracił wszystko i jak sam
+            określa: „wylądował na dnie”. Po poważnym wypadku na nartach i złamaniu obu rąk jego działalność w zawodzie
+            zegarmistrza legła w gruzach, a jakby tego było mało – dowiedział się, że żona postanowiła odejść do…
+            zaprzyjaźnionego instruktora jazdy na nartach. Przez paraliżujący ból kręgosłupa i pogruchotane kości i
+            stawy w rękach miał ogromne problemy z samodzielnym funkcjonowaniem. Wszystko się zmieniło, gdy dostał
+            szansę udziału w testach pewnej specjalistycznej formuły...</p>
+            <h2 class="article-title">Gdy ciało odmawia posłuszeństwa</h2>
+            <p class="normal-text">Rozmowa z Zygmuntem była bardzo emocjonalna. Mężczyzna niechętnie wraca do wydarzeń,
+                które wywołały wiele bezradności, łez i bólu.</p>
+            <p class="before-photo">„Odkąd pamiętam byłem dość kruchym dzieckiem – moje ciało było podatne na wszelkie
+                urazy, nadwyrężenia, zwichnięcia, złamania. Już w podstawówce miałem pierwsze kontuzje na WF-ie, kilka
+                razy wróciłem do domu z wybitym kciukiem, parę razy ze zwichniętą kostką – w dorosłym życiu niewiele się
+                zmieniło, może jedynie bardziej na siebie uważałem. Po 30-tce zacząłem mieć pierwsze problemy ze stawami
+                – strzykanie w kolanach podczas zginania nóg, bóle kręgosłupa po dłuższym siedzeniu przy biurku, czasem
+                przykurcze i sztywność w nogach, plecach i rękach. Momentami czułem się jak niedołężny, kuśtykający
+                starszy pan – i bardzo nie lubiłem tego uczucia.</p>
+            <div class="photo-box"><img data src="img/pain50b6292701c653697a9fe75ffb8314c9.jpg" alt="">
+                <div class="photo-desc">Przeszywające bóle kręgosłupa czasem na całe dnie przykuwały mnie do łóżka.
+                </div>
+            </div>
+            <p class="normal-text">Najlepsze w tym wszystkim jest to, że – o ironio – ożeniłem się z prawdziwą
+                sportsmenką. Moja żona była typem sportowca od urodzenia, zarażała mnie pasją do jazdy na rowerze,
+                wyciągała na aktywne wycieczki za miasto, na ściankę wspinaczkową, a ostatniej zimy na te nieszczęsne
+                dla mnie narty”.</p>
+            <h2 class="article-title">„Wcześniej byłem facetem pełnym sił i energii”</h2>
+            <p class="before-photo">Już drugiego dnia na stoku Zbigniew zaliczył potężny upadek, który unieruchomił go
+                na kilka długich tygodni.</p>
+            <div class="photo-box"><img data src="img/breakdown6b60be6c27768fbab5b49ffb55c958e4.jpg" alt="">
+                <div class="photo-desc">W oczach żony zamiast troski widziałem coraz większe rozczarowanie niesprawnym,
+                    fajtłapowatym mężczyzną
+                </div>
+            </div>
+            <p class="normal-text">„Pogruchotane obie ręce, całe w bandażach, przeszywający ból, do tego sztywność
+                kręgosłupa i pogłębione problemy ze stawami, gdy w końcu po kilkunastu dniach leżenia wyszedłem ze
+                szpitala. Zostałem sam, z niesprawnymi rękami, którymi dotąd zarabiałem na życie. Człowiekowi w takich
+                sytuacjach przychodzą do głowy najczarniejsze scenariusze. Nie wiedziałem, jak będą wyglądać moje
+                kolejne dni i tygodnie – miałem ogromny problem z utrzymaniem w dłoni kubka, parę razy wylałem na siebie
+                gorącą herbatę. Nadgarstki skrzypiały przy każdym ruchu, nie mogłem nimi w pełni swobodnie poruszać,
+                było bardzo ciężko”.</p>
+            <h2 class="article-title">„Znów jestem sprawny, silny i szczęśliwy!”</h2>
+            <p class="normal-text">Dziś siedzę naprzeciwko Zygmunta i widzę uśmiechniętego, silnego mężczyznę, który w
+                niczym nie przypomina tamtego pana ze zdjęć z grymasem bólu na twarzy. Zapytałam więc jak to możliwe i
+                jaka jest dalsza część tej historii. Oto jego odpowiedź:</p>
+            <p class="normal-text">”Prawdopodobnie moje życie potoczyłoby się zupełnie inaczej, gdyby nie jeden wpis na
+                forum internetowym. Znalazłem wiadomości dotyczące pewnego produktu, który może poprawiać kondycję
+                ruchową u osób w każdym wieku. Metoda ta została już okrzyknięta w internecie “świetnym wsparciem dla
+                przeciążonych stawów”, co brzmiało bardzo obiecująco. Poczułem, że to moja szansa i że warto byłoby
+                przetestować ten preparat - nie miałem nic do stracenia.</p>
+            <p class="before-photo">Zdecydowałem się wysłać swoje zgłoszenie, a po 4 dniach otrzymałem oficjalną
+                odpowiedź:</p>
+            <div class="photo-box photo-box-90"><img data src="img/accept2931de779fd6e9974b46ac5340f6259a.png"
+                                                     alt="Akcptacja" class="space d-none d-md-block">
+                <div class="accept-collapse d-md-none"><img data
+                                                            src="img/accept-mobile97bfd3d9193d55dbdbd59b560f053760.png"
+                                                            alt="Akcptacja" class="accept-collapse-img"> <span>Kliknij i zobacz całą wiadomość</span>
+                </div>
+                <div class="photo-desc">Zostałem zakwalifikowany do testów produktu wspierającego stawy, kości i
+                    mięśnie
+                </div>
+            </div>
+            <p class="normal-text">Czułem, że to była dobra decyzja, która może mi przynieść wiele dobrego. Zacząłem
+                sobie wyobrażać, że znowu sprawnie poruszam rękami, nie odczuwam tego paraliżującego bólu od barków po
+                kręgosłup, mogę znów bez trzęsienia rąk podnieść łyżkę z zupą, czy filiżankę gorącej kawy. Marzyłem, by
+                te wyobrażenia stały się rzeczywistością”.</p>
+            <h2 class="article-title">„Szok, zdumienie, a na końcu olbrzymia radość!”</h2>
+            <p class="normal-text">Zapytany o dalszy przebieg historii, Zygmunt uśmiecha się od ucha do ucha.</p>
+            <p class="before-photo">Test polegał na przyjmowaniu preparatu raz dziennie, o tej samej porze. U mnie
+                pierwszy efekt przyszedł jeszcze tego samego dnia – rano przyjąłem środek, a już popołudniu zmniejszyły
+                się obrzęki dłoni. Następnego ranka obudziłem się bez sztywności palców i promieniującego bólu barku.
+                Mogłem bez bólu rozprostować nadgarstki, nie czułem też już tego nieprzyjemnego rwania w plecach. To
+                musiało wyglądać śmiesznie, ale siedziałem chyba przez pół dnia patrząc jak zginam i prostuje palce – bo
+                nie mogłem się nadziwić, jak poprawił się stan moich rąk.</p>
+            <div class="photo-box photo-box-100"><img data src="img/transformationf2b56ffcf37448f91cbbf81affbf08bc.jpg"
+                                                      alt="Moje życie odmieniło się na lepsze!">
+                <div class="photo-desc">Moje życie odmieniło się na lepsze!</div>
+            </div>
+            <p class="normal-text">Po 3 tygodniach wróciłem do pracy w zawodzie zegarmistrza. Bez drżenia rąk, bez
+                żadnych ograniczeń dłubię w tych maleńkich mechanizmach, naprawiam uszkodzone zegarki, nastawiam
+                4-milimetrowe wskazówki. Przybyło mi jeszcze więcej stałych klientów, niż miałem przed wypadkiem –
+                wyszedłem na prostą, znów robię to co kocham. Z powykrzywianymi palcami, opuchniętymi, trzęsącymi się
+                dłońmi i sztywnością nadgarstków byłoby to niemożliwe”.</p>
+            <h2 class="article-title">Co sprawiło, że po 3 tygodniach Zygmunt mógł zapomnieć o sztywności, drżeniu, bólu
+                i obrzęku stawów?</h2>
+            <p class="before-photo">Bazą formuły, która pomogła Zygmuntowi zmniejszyć dolegliwości w tak krótkim czasie,
+                są takie składniki jak: kwas hialuronowy, siarczan glukozaminy, czy kolagen typu II. Ich dobroczynne
+                działanie na stawy i cały układ ruchu zostało wielokrotnie docenione przez znawców branży ortopedycznej
+                i fizjoterapeutycznej. Co to oznacza dla Ciebie?</p>
+            <div class="five-steps">
+                <div class="img-wrapper"><img data src="img/effects-141c00c3bd95dc726287c97bd4dc28aaa.png" alt=""></div>
+                <div class="desc-wrapper">
+                    <div class="number"><p>1</p></div>
+                    <div class="desc"><p class="desc-title">Ból i ograniczenia ruchowe mogą zmniejszać się od 1.
+                        zastosowania</p>
+                        <p class="desc-text">Preparat ma kojący wpływ na zmęczone i obolałe mięśnie, kości i stawy. Może
+                            być cennym wsparciem dla osób, które skarżą się na sztywność i bóle stawów, mają za sobą
+                            kontuzję, uraz, złamanie lub zwichnięcie. Pomaga łagodzić nieprzyjemne uczucie trzeszczenia
+                            podczas zginania kolan czy łokci, może zmniejszyć opuchliznę, przykurcze i poranny ból
+                            startowy. Pozytywne działanie formuły chwalą sobie również zawodowi sportowcy.</p></div>
+                </div>
+            </div>
+            <div class="five-steps">
+                <div class="img-wrapper"><img data src="img/effects-2b79b5d0caf04b55b6cce8f5dd2c8da85.png" alt=""></div>
+                <div class="desc-wrapper">
+                    <div class="number"><p>2</p></div>
+                    <div class="desc"><p class="desc-title">Sprawne kolana i koniec „łupania” w kościach</p>
+                        <p class="desc-text">Regularne stosowanie preparatu może pomóc zwiększyć zakres ruchomości w
+                            stawach barkowych, kolanowych, czy łokciowych. Wspierając się tą formułą, masz szansę
+                            zmniejszyć “strzelanie”, skrzypienie, łupanie i rwanie w stawach oraz poczuć lepszą płynność
+                            i swobodę ruchów. Dzięki większemu wydzielaniu naturalnej mazi stawowej poprawia się również
+                            komfort ruchowy – użytkownicy opisują to jako odczuwalnie lepsze „naoliwienie” stawów.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="five-steps">
+                <div class="img-wrapper"><img data src="img/effects-352487569a874cf15504ae4e343a1c92c.png" alt=""></div>
+                <div class="desc-wrapper">
+                    <div class="number"><p>3</p></div>
+                    <div class="desc"><p class="desc-title">Wsparcie dla obolałych pleców</p>
+                        <p class="desc-text">Przyjmowanie kojącej formuły może pomóc zmniejszyć ogniska zapalne i
+                            łagodzić dolegliwości wywołane przed nadmierne przeciążenie stawów. Preparat świetnie
+                            sprawdza się u seniorów i jest tak samo skuteczny w różnym stopniu nasilenia problemów.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="five-steps">
+                <div class="img-wrapper"><img data src="img/effects-4a5338572a4266379324c7a8ceda69591.png" alt=""></div>
+                <div class="desc-wrapper">
+                    <div class="number"><p>4</p></div>
+                    <div class="desc"><p class="desc-title">Ciesz się aktywnym życiem i sprawnością ruchową!</p>
+                        <p class="desc-text">Wsparcie przeciążonych mięśni, obolałego kręgosłupa, kolan, barków, bioder
+                            i nadgarstków pomoże Ci wrócić do ulubionych aktywności i cieszyć się sprawnością fizyczną
+                            bez ograniczeń ruchowych. Odzyskując pełną ruchomość w zakresie stawów przestaniesz czuć
+                            nieprzyjemne „zablokowanie” kończyn i paraliżującą sztywność. Sprężyste, mocne stawy i
+                            płynne, swobodne ruchy – oto Twój plan na nowe życie bez bólu!</p></div>
+                </div>
+            </div>
+            <div class="expert-box">
+                <div class="expert-image"><img data src="img/expert57e0d198390a54ffc1c06d7aa1f9f6d2.jpg" alt=""></div>
+                <p class="expert-opinion">Wiele godzin spędzonych w laboratoriach przyniosło fantastyczny rezultat.
+                    Okazuje się, że w XXI wieku jesteśmy w stanie łagodzić zaawansowane dolegliwości bólowe wynikające z
+                    przeciążeń, kontuzji - i nikt nie musi być skazany na ciągłe rwanie w kręgosłupie, skrzypienie
+                    kolan, bóle w korzonkach na zmiany pogody, ani drętwienie czy sztywność kończyn po dłuższym
+                    przebywaniu w jednej pozycji. Za sprawą cennych składników wspierających chrząstki stawowe i
+                    kojących obolałe mięśnie, preparat może posłużyć wielu osobom do łagodzenia uciążliwego bólu pleców,
+                    kolan, barków, bioder, czy nadgarstków, wspomóc zwiększenie sprawności ruchowej, a także przyczynić
+                    się do szybszej regeneracji po urazach, nadwyrężeniach i kontuzjach.</p></div>
+            <h2 class="article-title">Zdumiewające efekty</h2>
+            <p class="before-photo">Regularne stosowanie formuły Prostavin Plus przyniosło Zygmuntowi pożądane rezultaty -
+                pomogło mu poczuć większą sprawność ruchową i wrócić do aktywnego i radosnego życia.</p>
+            <div class="photo-box"><img data src="img/proof-11e5a9282e4d69f3684b658ffe590eee3.jpg"
+                                        alt="Edyta: wreszcie zginam kolana bez bólu i wrażenia nieprzyjemnego tarcia">
+                <div class="photo-desc">Edyta: wreszcie zginam kolana bez bólu i wrażenia nieprzyjemnego tarcia</div>
+            </div>
+            <div class="photo-box"><img data src="img/proof-20c96273b5393f6880b7ad85b98f194bb.jpg"
+                                        alt="Joanna z Ełku: znów mogę chodzić na długie spacery">
+                <div class="photo-desc">Joanna z Ełku: znów mogę chodzić na długie spacery</div>
+            </div>
+            <div class="photo-box"><img data src="img/proof-3225880f5eaf21361338dbf510dae5c74.jpg"
+                                        alt="Paweł z Krakowa: pokonałem chroniczny ból kręgosłupa">
+                <div class="photo-desc">Paweł z Krakowa: pokonałem chroniczny ból kręgosłupa</div>
+            </div>
+            <div class="photo-box"><img data src="img/proof-47079f84b8d090c97e73768ac8a1f0c9e.jpg"
+                                        alt="Maria z Elbląga poprawiła swoją kondycję ruchową po 60-tce">
+                <div class="photo-desc">Maria z Elbląga poprawiła swoją kondycję ruchową po 60-tce</div>
+            </div>
+            <p class="normal-text">Prostavin Plus korzystnie wpływa na przeciążony układ ruchu i może odczuwalnie wzmocnić
+                obolałe mięśnie, kości i stawy. Możesz przekonać się, że Twoje kolana, kręgosłup, barki i mięśnie są w
+                stanie odzyskać sprawność, a ból stawów wcale nie musi dalej uprzykrzać Ci życia. Ta formuła pomoże Ci
+                zmniejszyć ograniczenia ruchowe i stanąć na nogi!</p>
+            <h2 class="article-title">Wzmocnij stawy z pomocą Prostavin Plus</h2>
+            <p class="normal-text">Nie czekaj, aż trzeszczące i strzykające stawy same wrócą do formy. Chrząstki stawowe
+                ulegają degradacji przy każdym ruchu i ścierają się coraz mocniej z każdym dniem. Warto więc zatroszczyć
+                się o układ kostno-stawowy jak najszybciej, aby zachować płynność ruchów, mocne stawy, sprawne mięśnie i
+                silne kości nawet do późnej starości. Pamiętaj – zasługujesz na aktywne i szczęśliwe życie, w którym nie
+                będziesz mierzyć się z bólem i sztywnością stawów, rwaniem w kręgosłupie, nerwobólami, czy drętwieniem
+                kończyn.</p>
+            <p class="normal-text">Trwa specjalna akcja promocyjna. Jest dostępna dla każdej osoby, która chce wspomóc
+                swoje stawy i pozbyć się ograniczeń ruchowych wraz z formułą Prostavin Plus.</p>
+            <p class="before-last-photo">Jeśli chcesz zadbać o stawy jak Zygmunt, kliknij w poniższy link. Przekieruje
+                Cię on bezpiecznie na oficjalną stronę producenta, gdzie czeka na Ciebie specjalna zniżka. Nie zwlekaj
+                zbyt długo, bo dzienna liczba przyznawanych zniżek jest ograniczona, a chętnych nie brakuje!</p>
+            <div class="last-photos">
+                <div class="last-photo-box"><img data src="img/last-photos474b215760be4bc330a8c69b17382ce6.jpg" alt="">
+                </div>
+                <div class="last-photo-product"><img data src="prod.png"
+                                                     alt="Prostavin Plus"></div>
+            </div>
+
+            <div class="form" id="orderForm">
+                <div class="form__image">
+                    <picture>
+                        <img src="prod.png" alt="img">
+                    </picture>
+                    <div class="red-border__text">-50%</div>
+                </div>
+                <form action="getform.php" class="x_order_form form__inner" method="post">
+                    <input type="hidden" name="utm_source" value="{clickid}">
+                    <input type="hidden" name="utm_campaign" value="{t2}">
+                    <div class="form__title">Zamów z rabatem</div>
+                    <div class="form__price">
+                        <div>
+                            <div class="form__price-title">Cena oryginalna:</div> <span class="form__price-lines"> <span class="x_price_previous form__price-value">274</span> <span class="x_currency form__price-value">zł</span> </span>
+                        </div>
+                        <div>
+                            <div class="form__price-title">Nowa cena:</div> <span class="x_price_current mod-red form__price-value">137</span> <span class="x_currency mod-red form__price-value">zł</span>
+                        </div>
+                    </div> <input class="form__input" type="text" name="name" placeholder="Twoje imię i nazwisko" required="" autocomplete="name" pattern=".{2,25}"> <input class="form__input" type="tel" name="phone" placeholder="Numer telefonu" required="" autocomplete="tel" pattern=".{6,18}"> <button class="form__btn">ZAMÓWIĆ</button>
+                </form>
+            </div>
+
+            <style>
+                .form {
+                    border: 2px solid #dbdbdb;
+                    background: #f7f7f7;
+                    box-shadow: 0 0 12px #c5c5c5;
+                    border-radius: 10px;
+                    padding: 15px;
+                    margin: 30px auto 30px
+                }
+
+                .form__image {
+                    width: 250px;
+                    margin: 0 auto 15px;
+                    position: relative
+                }
+                .form__image img{
+                    max-width: 100%;
+                }
+
+                .red-border__text {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    width: 72px;
+                    height: 72px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: #fff;
+                    font-size: 24px;
+                    top: 10px;
+                    right: 0
+                }
+
+                .red-border__text::after {
+                    content: '';
+                    position: absolute;
+                    border-radius: 50%;
+                    box-sizing: border-box;
+                    width: 100px;
+                    height: 100px;
+                    border-bottom: 2px solid red;
+                    top: -14px;
+                    right: -14px;
+                    -webkit-animation: load 2s linear infinite;
+                    animation: load 2s linear infinite
+                }
+
+                .form__title {
+                    text-align: center;
+                    font-weight: 700;
+                    font-size: 20px;
+                    margin-bottom: 10px
+                }
+
+                .form__price {
+                    display: flex;
+                    justify-content: space-around;
+                    margin-bottom: 15px;
+                    text-align: center
+                }
+
+                .form__price-title {
+                    margin-bottom: 5px
+                }
+
+                .form__price-lines {
+                    position: relative
+                }
+
+                .form__price-lines::after {
+                    content: '';
+                    position: absolute;
+                    border-top: 1px solid red;
+                    width: 100%;
+                    top: 50%;
+                    left: 0;
+                    transform: rotate(-12deg)
+                }
+
+                .form__price-lines::before {
+                    content: '';
+                    position: absolute;
+                    border-top: 1px solid red;
+                    width: 100%;
+                    top: 50%;
+                    left: 0;
+                    transform: rotate(12deg)
+                }
+
+                .form__price-value {
+                    font-size: 22px
+                }
+
+                .form__price-value.mod-red {
+                    font-weight: 700
+                }
+
+                .form__input {
+                    width: 100%;
+                    margin-bottom: 15px;
+                    background-color: #fff;
+                    box-sizing: border-box;
+                    border: 1px solid #c5c5c5;
+                    padding: 10px 10px 10px 20px;
+                    outline: 0;
+                    font-size: 16px
+                }
+
+                .form__btn {
+                    font-size: 25px;
+                    color: #fff;
+                    background: red;
+                    border: 2px solid red;
+                    cursor: pointer;
+                    border-radius: 12px;
+                    padding: 15px 40px;
+                    width: 100%;
+                    transition: all .3s ease-in-out;
+                    animation: btnScale 1.2s linear infinite
+                }
+                .form__btn:hover {
+                    background: 0 0;
+                    color: red
+                }
+                .form__inner {
+                    max-width: 300px;
+                    margin: 0 auto
+                }
+                .site-header,
+                .site-nav__item-anchor,
+                .site-nav__item-text {
+                    color: #fff
+                }
+                @media screen and (min-width:768px) {
+                    .form {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 50px 25px 25px 25px;
+                        width: 650px;
+                        margin: 30px auto 30px
+                    }
+                }
+                * {
+                    -webkit-tap-highlight-color: transparent
+                }
+                html {
+                    -ms-text-size-adjust: 100%;
+                    -moz-text-size-adjust: 100%;
+                    -webkit-text-size-adjust: 100%
+                }
+                :active,
+                :focus,
+                :hover,
+                :visited {
+                    outline: 0 !important
+                }
+                ::-moz-focus-inner {
+                    border: 0;
+                    outline: 0
+                }
+                button::-moz-focus-inner {
+                    border: none
+                }
+                :not(#fake) {
+                    outline: 0
+                }
+                input:invalid {
+                    box-shadow: none
+                }
+                @keyframes load {
+                    0% {
+                        transform: rotate(0)
+                    }
+
+                    100% {
+                        transform: rotate(360deg)
+                    }
+                }
+
+                @keyframes btnScale {
+                    0% {
+                        transform: scale(1)
+                    }
+
+                    100% {
+                        transform: scale(1)
+                    }
+
+                    20% {
+                        transform: scale(1)
+                    }
+
+                    80% {
+                        transform: scale(1)
+                    }
+
+                    50% {
+                        transform: scale(1.05)
+                    }
+                }
+
+                @media screen and (min-width: 768px){
+                    .form {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 50px 25px 25px 25px;
+                        width: 650px;
+                        margin: 30px auto 30px;
+                    }
+                }
+
+
+            </style>
+    </main>
+    <aside class="aside d-none d-lg-block">
+        <div class="author-box">
+            <div class="author">
+                <div class="author-photo"><img data src="img/author57c3d495fa072acebd5dc282b64d1502.png" alt="Julia">
+                </div>
+                <div class="author-name"><span>Julia</span></div>
+            </div>
+            <div class="author-desc"><p class="author-text">Pasjonatka zdrowego trybu życia, poszukująca sposobów na
+                utrzymanie sprawności ruchowej w każdym wieku. Lubi rozmawiać z ludźmi i opisywać ich historie,
+                prywatnie miłośniczka tańca i jazdy konnej.</p></div>
+        </div>
+        <div class="popular">
+            <div class="popular-title">Popularne wpisy</div>
+            <div class="news"><a href="#">
+                <div class="news-photo"><img data src="img/aside-11971fc536d61b925356306369aecf5d2.png"
+                                             alt="Co robić, gdy ból pleców „wyłącza” Cię z życia?"></div>
+                <div class="news-desc"><p class="news-text">Co robić, gdy ból pleców „wyłącza” Cię z życia?</p><span
+                        class="news-category">Porady</span></div>
+            </a></div>
+            <div class="news"><a href="#">
+                <div class="news-photo"><img data src="img/aside-2745228f16e9a61fd2c27374c9ef23b24.png"
+                                             alt="Odkrycie ortopedów z Norwegii – jak poprawić sprawność seniorów?">
+                </div>
+                <div class="news-desc"><p class="news-text">Odkrycie ortopedów z Norwegii – jak poprawić sprawność
+                    seniorów?</p><span class="news-category">Innowacje</span></div>
+            </a></div>
+            <div class="news"><a href="#">
+                <div class="news-photo"><img data src="img/aside-3341081cb887e015bc691b7bd137ff722.png"
+                                             alt="3 proste sposoby na szybszą regenerację po kontuzji"></div>
+                <div class="news-desc"><p class="news-text">3 proste sposoby na szybszą regenerację po kontuzji</p><span
+                        class="news-category">Porady</span></div>
+            </a></div>
+            <div class="news"><a href="#">
+                <div class="news-photo"><img data src="img/aside-42ab52c7ec79270564cc331c3cc1fad1a.png"
+                                             alt="Ta metoda to hit na skrzypiące stawy!"></div>
+                <div class="news-desc"><p class="news-text">Ta metoda to hit na skrzypiące stawy!</p><span
+                        class="news-category">Innowacje</span></div>
+            </a></div>
+        </div>
+        <a href="#" class="cta-aside cta">
+            <div class="cta-aside-text"><h5>Oferta specjalna</h5></div>
+            <img src="prod.png" alt="Prostavin Plus">
+            <div class="cta-aside-text"><h5>Rabat -49%</h5>
+                <p>Odbierz opakowanie</p></div>
+        </a></aside>
+</div>
+<footer class="footer">
+    <div class="footer-wrapper container">
+        <div class="footer-desc">
+            <div class="footer-nav">
+                <div class="footer-nav-item d-none d-md-block"><img data
+                                                                    src="img/arrowc0c6efd4c99c6998df0c07e8fd2dcd50.svg"
+                                                                    alt="Arrow"></div>
+                <div class="footer-nav-item"><a href="#"><strong>Wiadomości</strong></a></div>
+                <div class="footer-nav-item"><a href="#">Wydarzenia</a></div>
+                <div class="footer-nav-item"><a href="#">Innowacje</a></div>
+                <div class="footer-nav-item"><a href="#">Konferencje</a></div>
+                <div class="footer-nav-item"><a href="#">Okiem eksperta</a></div>
+            </div>
+            <div class="footer-text"><p class="text-italic">*Produkt nie jest lekiem i nie może zastąpić leków
+                przepisanych przez lekarza. W trakcie trwania kuracji zaleca się zrównoważony sposób żywienia oraz
+                zdrowy tryb życia.<br><br>*Reklamowany produkt jest suplementem diety. Suplementy diety to produkty
+                przeznaczone do uzupełnienia diety. Nie są one lekami i nie są przeznaczone do leczenia, diagnozowania,
+                łagodzenia skutków, zapobiegania lub leczenia chorób.<br><br>*Efekty stosowania produktu uzależnione są
+                od indywidualnych predyspozycji użytkowników i w zależności od nich mogą się różnić. Wskazane w artykule
+                informacje o efektach i szybkości działania produktu nie stanowią zapewnienia sprzedawcy o jego
+                właściwościach. Tekst stanowi materiał reklamowy.<br><br>*Niniejszy artykuł reklamowy jest oparty na
+                fikcji, a wszelkie podobieństwo do prawdziwych osób, miejsc lub wydarzeń jest czysto
+                przypadkowe.<br><br>*W trosce o bezpieczeństwo oraz zapewnienie usług na najwyższym poziomie właściciel
+                strony zastrzega sobie prawo do wprowadzenia zmian zawartych w polityce prywatności. Działanie to ma na
+                celu zachowanie pełnej anonimowości klientów, dlatego w dbałości o ich satysfakcję ze świadczonych usług
+                zamieszczone imiona i nazwiska zostały zmienione. Jednocześnie właściciel strony zaznacza, że wszelkie
+                podobieństwo do postaci rzeczywistych jest przypadkowe i nie zostało wykorzystane w sposób celowy.</p>
+                <div class="footer_legal"><p class="footer_legal_txt">Administrator nie weryfikuje, czy opinie dostępne
+                    na stronie pochodzą od konsumentów, którzy używali produkt lub go kupili.</p></div>
+                <ul class="footer-links">
+                    <li class="footer-links-item"><a href="#"
+                                                     onclick='return window.open("privacy.html","windowname1","width=670, height=765, scrollbars=1"),!1'>Polityka
+                        prywatności</a></li>
+                    <li class="footer-links-item"><a href="#"
+                                                     onclick='return window.open("regulations.html","windowname1","width=670, height=765, scrollbars=1"),!1'>Regulamin</a>
+                    </li>
+                    <li class="footer-links-item"><a href="disclaimer.pdf" target="_blank">Ujawnienie informacji</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-logo">
+            <div class="footer-logo-photo"><img data src="img/logo593f760cb3caddb1b982dcca407a8b83.png"
+                                                alt="Strefa zdrowia"> <span class="logo-text">Strefa zdrowia</span>
+            </div>
+            <div class="footer-socials"></div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script>
+    $("a").on("touchend, click", function (e) {
+        e.preventDefault();
+        $('body,html').animate({ scrollTop: $('#orderForm').offset().top }, 400);
+    });
+</script>
+
+
+<script>
+    $('[name="name"]').on('input change', function(){
+        var val = $(this).val();
+        $(this).val(val.replace(/[0-9+]/g, ''));
+    });
+    $('[name="name"]').attr('autocomplete', 'name');
+    $('[name="name"]').attr('pattern', '.{2,25}');
+
+    $('[name="phone"]').on('input change', function(e){
+        var val = $(this).val();
+        $(this).val(val.replace(/[A-zА-яіїЁё ]/g, ''));
+    });
+    $('[name="phone"]').get(0).type = 'tel';
+    $('[name="phone"]').attr('autocomplete', 'tel');
+    $('[name="phone"]').attr('pattern', '.{6,18}')
+</script>
+
+
+</body>
+</html>
